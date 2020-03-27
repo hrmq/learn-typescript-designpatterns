@@ -16,5 +16,5 @@ const summary1 = new Summary(
 );
 summary1.buildAndPrintReport(matchReader.matches);
 
-const summary2 = new Summary(new WinsAnalysis('Man United'), new HtmlReport());
+const summary2 = Summary.winAnalysisWithHtmlReport('Man United');
 summary2.buildAndPrintReport(matchReader.matches);
